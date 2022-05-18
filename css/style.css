@@ -1,0 +1,51 @@
+body {
+    background-color: #12130F;
+}
+
+#particles-js {
+    width: 100%;
+    height: 100vh;
+}
+
+.top_oc {
+    position: absolute;
+    right: 13%;
+    bottom: 0%;
+}
+
+.opening_card {
+    position: fixed;
+    padding: 5px 20px 30px 20px;
+    border-radius: 10px;
+    top: 30%;
+    left: 50%;
+    text-align: right;
+    background-color: rgba(14, 15, 11, 0.75);
+}
+
+h1 {
+    font-family: 'Century Gothic';
+    color: #48c4b3;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Century Gothic';
+    color: #cbf0f1;
+}
+
+a{
+    text-decoration: none;
+    font-family: 'Century Gothic';
+    color: #cbf0f1;
+}
+
+a:hover {
+    color: #ff00ff;
+    font-weight: bold;
+}
+
+a:visited {
+    font-style: italic;
+}
