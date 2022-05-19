@@ -7,16 +7,10 @@ body {
     height: 100vh;
 }
 
-.top_oc {
-    position: absolute;
-    right: 13%;
-    bottom: 0%;
-}
-
-.opening_card {
+.oc {
     position: fixed;
     padding: 5px 20px 30px 20px;
-    border-radius: 10px;
+    border-radius: 20px;
     top: 30%;
     left: 50%;
     text-align: right;
@@ -39,10 +33,11 @@ a{
     text-decoration: none;
     font-family: 'Century Gothic';
     color: #cbf0f1;
+    font-weight: bold;
 }
 
 a:hover {
-    color: #ff00ff;
+    color: #b73b4c;
     font-weight: bold;
 }
 
