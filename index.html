@@ -4,19 +4,24 @@
         <title>yes</title>
     </head>
     <body>
-        
-        <div class="top_oc">
-            <audio src="music/lp.mp3" controls="pause"></audio>
-            <div class="opening_card">
-                <h1>a new landing page!</h1>
-                <p> just a subtitle-ish text to complement the header. <br> 
-                    anyways, you can play with the line stuff that took me quite a while to implement... <br>
-                    (click to deploy more particles, then just hover to repel stuff) <br><br>
-                    i just wrote this not too long ago, so here's a little something for the meantime :) <br>
-                    <a href="https://bit.ly/3G57WK8">take me somewhere else!</a>
-                </p>
-            </div>
+        <div class="oc">
+            <h1>a new landing page!</h1>
+            <p> just a subtitle-ish text to complement the header. <br> 
+                anyways, you can play with the line stuff that took me quite a while to implement... <br>
+                (click to deploy more particles, then just hover to repel stuff) <br><br>
+                i just wrote this not too long ago, so here's a little something for the meantime :) <br><br>
+                <a href="https://bit.ly/3G57WK8">take me somewhere else!</a>
+            </p>
         </div>
+        
+        <script>
+            var audio = new Audio("msc/lp.mp3");
+            document.onclick = function() {
+                audio.play();
+            }
+        </script>
+        
+        <script src="js/oc_button.js"></script>
 
         <div id="particles-js"></div>
         <script src="js/particles.js"></script>
