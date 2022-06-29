@@ -1,6 +1,12 @@
+/* ===== imports =====*/
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
+/* ===== general ===== */
+
 body {
     background-color: #12130F;
-    font-family: 'Century Gothic';
+    font-family: 'Quicksand', sans-serif;
 }
 
 #particles-js {
