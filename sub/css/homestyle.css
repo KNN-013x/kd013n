@@ -143,6 +143,10 @@ li a:hover {
     color: #a1888b;
 }
 
+.link:hover {
+    color: #72222c;
+}
+
 .dispnotes::-webkit-scrollbar {
     width: 10px;
 }
