@@ -7,6 +7,7 @@
 body {
     background-color: #12130F;
     font-family: 'Quicksand', sans-serif;
+    font-weight: 100;
 }
 
 a {
@@ -70,7 +71,7 @@ li a:hover {
     padding: 5px 10px 5px 10px;
     border-left: 3px solid #521820;
     color: #72222c;
-    font-style: italic;
+    font-weight: 200;
 }
 
 .thispage {
@@ -78,7 +79,7 @@ li a:hover {
     padding: 5px 10px 5px 10px;
     border-left: 3px solid #a1888b;
     color: #a1888b;
-    font-style: italic;
+    font-weight: 600;
 }
 
 /* ===== notes ===== */
@@ -107,7 +108,6 @@ li a:hover {
     padding: 10px 20px;
     font-size: 26px;
     font-style: italic;
-    border-left: 3px #521820 solid;
     color: #72222c;
 }
 
@@ -121,7 +121,6 @@ li a:hover {
 
 .q {
     font-size: 20px;
-    font-style: italic;
     color: rgb(180, 180, 180);
 }
 
@@ -140,6 +139,10 @@ li a:hover {
 }
 
 .link {
+    color: #72222c;
+}
+
+.link:hover {
     color: #72222c;
 }
 
