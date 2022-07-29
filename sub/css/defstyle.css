@@ -103,6 +103,39 @@ li a:hover {
     box-sizing: border-box;
 }
 
+.vert_note {
+    display: flex;
+    max-height: 100%;
+    width: 90%;
+    
+    flex-direction: row;
+    justify-content: center;
+}
+
+.vert_note_elem_norm {
+    width: 90%;
+    display: inline-block;
+    margin: 2% 0%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.vert_note_elem_thicc {
+    width: 300%;
+    display: inline-block;
+    margin: 2% 0%;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.title {
+    display: inline;
+    padding: 10px;
+    font-size: 36px;
+    font-style: italic;
+    color: #c08289;
+}
+
 .header_text {
     display: inline;
     padding: 10px 20px;
@@ -131,6 +164,21 @@ li a:hover {
     margin-left: 5%;
 }
 
+.quote {
+    display: inline-block;
+    margin-left: 15px;
+    border-left: rgb(182, 139, 139) 2px;
+    text-justify: none;
+}
+
+.footnote {
+    padding: 10px 0px;
+    text-align: justify;
+    text-justify: inter-ideograph;
+    font-size: 13px;
+    color: #a1888b;
+}
+
 .break {
     width: 50%;
     border: 0;
@@ -139,7 +187,7 @@ li a:hover {
 }
 
 .link {
-    color: #72222c;
+    color: #a1888b;
 }
 
 .link:hover {
