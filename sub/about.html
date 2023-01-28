@@ -21,11 +21,11 @@
                 <div class="dispnotes">
                     <div class="note">
                         <p class="title">
-                            about kds!
+                            hello
                         </p><br><br>
 
                         <p class="homepage_text">
-                            hi, im iris, and welcome to my domain! i like music, cats, and sleep :D
+                            welcome to my domain! i like music, cats, and sleep :D
                         </p>
                     </div>
                         
@@ -38,26 +38,23 @@
                             </p><br>
     
                             <p class="homepage_text">
-                                <a href="https://www.youtube.com/channel/UCMnhcXaJ8K0Qx76keuGCuRw" class="link">Youtube</a>
+                                <a href="https://www.youtube.com/channel/UCMnhcXaJ8K0Qx76keuGCuRw" class="link">youtube</a>
                                 <br>
-                                <a href="https://rateyourmusic.com/~xiiv013e" class="link">RYM</a>
+                                <a href="https://rateyourmusic.com/~xiiv013e" class="link">rym</a>
                                 <br>
                                 <a href="https://www.last.fm/user/kd013n" class="link">last.fm</a>
                             </p>
                         </div>
                         
                         <div class="vert_note_elem_thicc">
-                            <p class="header_text">
-                                extended version:
-                            </p><br>
+                            <p class="homepage_text">
+                                when im not online, i probably am just asleep. i like working at night, especially around 10pm-4am. it's especially worsened by college :) im currently doing engineering for uni. oh, gof i hate computers, im telling you
+                            </p>
     
                             <p class="homepage_text">
-                                i love music! im a fan of many genres including industrial, death metal, post-punk, minimal electronic, and contemporary classical. always down to explore different styles and scenes, i always appreciate recommendations!
-                                <br><br>
-                                when im not online, i probably am just asleep. i like working at night, especially around 12am-4am. it's especially worsened by college since im currently doing engineering for uni <a title="view footnote" href="#fn_1">[1]</a> — guess which field! hehe yes me likes suffering :P 
-                                <br><br>
-                                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Labore rerum atque repudiandae. Alias expedita reprehenderit voluptas consectetur consequatur natus hic aliquid. Corrupti accusamus quibusdam exercitationem adipisci optio! Ipsa, consequuntur quibusdam.
+                                i love music! im currently exploring post-punk, modern classical, and industrial. some of my go-tos are experimental electronic, death metal, black metal, ambient, and techno. you have a recommendation in mind? go ahead and take it <a href="https://rateyourmusic.com/recommend/?rece=xiiv013e" class="link" target="_blank">here</a> or <a title="handle" id="dchandle" class="link">here</a>
                             </p>
+
                         </div>
                     </div>
 
@@ -71,15 +68,19 @@
                             <span class="q">why is the sky blue?</span><br>
                             <span class="a"> 2am woozy version: ok so your eyes have these cones which are sensitive to certain wavelengths of light, and humans are cant get any more beta than having less of these violet light sensitive cones. the sky is actually violet/indigoish violet, but we perceive the closest color to it instead. so, why is it violet then? idk man something about <a href="https://en.wikipedia.org/wiki/Rayleigh_scattering" class="link"> rayleigh scattering shit </a>, where particles in the air do weird stuff to light. whatever, who cares? why is the pacific ocean blue? for an abyss, it looks too inviting<span>
                         </p>
+
+                        <p class="homepage_text_mod">...</p>
+
+                        <p class="homepage_text">
+                            i cant think of questions anymore so we're asking <a href="https://faculty.washington.edu/ejslager/random-generator/index.html" class="link">random question generator</a> for help!
+                        </p>
                     </div>
                     
                     <hr class="break">
 
                     <div class="note">
                         <p class="footnote">
-                            <span id="fn_1">
-                                [1] disclaimer: im not very gifted in maths but i can try to help you with homeworks or whatnot (if youre cool with failing!)
-                            </span>
+                            experimental feature
                         </p>
                     </div>
                 </div>
@@ -87,7 +88,21 @@
 
         </div>
         <div id="particles-js"></div>
-            <script src="js/particles.js"></script>
-            <script src="js/app.js"></script>
+        <script src="js/particles.js"></script>
+        <script src="js/app.js"></script>
+        <script>
+            const copyToClipboard = str => {
+                const el = document.createElement('textarea');
+                el.value = str;
+                document.body.appendChild(el);
+                el.select();
+                document.execCommand('copy');
+                document.body.removeChild(el);
+            };
+
+            document.getElementById('dchandle').addEventListener('click', function(e){
+                copyToClipboard('kd013n#8246');
+            });
+        </script>   
     </body>
 </html>

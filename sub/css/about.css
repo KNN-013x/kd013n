@@ -1,0 +1,10 @@
+.homepage_text_mod {
+    display: flex;
+    justify-content: center;
+    padding: 10px 50px;
+    text-align: justify;
+    text-justify: inter-ideograph;
+    font-size: 17px;
+    line-height: 17px;
+    color: #a1888b;
+}
