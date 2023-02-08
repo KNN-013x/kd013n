@@ -1,0 +1,22 @@
+.dispnotes {
+    display: grid;
+    max-height: 90%;
+    width: 75%;
+    
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.note {
+    width: 30vw;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-bottom: 1vh;
+    
+    padding: 2%;
+    background-color: #0a09092d;
+    border-radius: 1vh;
+}

@@ -103,6 +103,10 @@ li a:hover {
     margin: 0.5% 0%;
     padding: 15px;
     box-sizing: border-box;
+
+    padding: 2%;
+    background-color: #0a09092d;
+    border-radius: 1vh;
 }
 
 .vert_note {
@@ -110,8 +114,11 @@ li a:hover {
     max-height: 100%;
     width: 90%;
     
+    box-sizing: border-box;
     flex-direction: row;
     justify-content: center;
+    background-color: #0a09092d;
+    border-radius: 1vh;
 }
 
 .vert_note_elem_norm {
@@ -142,7 +149,6 @@ li a:hover {
     display: inline;
     padding: 10px 20px;
     font-size: 26px;
-    font-style: italic;
     color: #72222c;
 }
 
@@ -185,7 +191,7 @@ li a:hover {
 }
 
 .break {
-    width: 50%;
+    width: 95%;
     border: 0;
     height: 0;
     border-top: 2px #521820 dotted;
@@ -197,6 +203,15 @@ li a:hover {
 
 .link:hover {
     color: #72222c;
+}
+
+.link:hover .header_text {
+    color: #973e48;
+    font-weight: 800;
+}
+
+.link:hover .homepage_text {
+    color: #c2b1b3;
 }
 
 .dispnotes::-webkit-scrollbar {
