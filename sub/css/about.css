@@ -1,10 +1,19 @@
+.vert_note_elem_norm .homepage_text {
+    padding: 0.5vw 2.15vw;
+    text-align: justify;
+    text-justify: inter-ideograph;
+    line-height: 3vh;
+    font-size: 2.15vh;
+    color: #a1888b;
+}
+
 .homepage_text_mod {
     display: flex;
     justify-content: center;
     padding: 10px 50px;
     text-align: justify;
     text-justify: inter-ideograph;
-    font-size: 17px;
-    line-height: 17px;
+    font-size: 2.15vh;
+    line-height: 2.15vh;
     color: #a1888b;
 }
